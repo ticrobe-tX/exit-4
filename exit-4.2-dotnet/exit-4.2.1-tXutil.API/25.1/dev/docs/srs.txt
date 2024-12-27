@@ -1,0 +1,64 @@
+1. tXutil.API
+    1.1. tXid
+        a. postAsync
+            - /apiStore/2.25.1/dev/tXid/
+            - /apiStore/2.25.1/qa/tXid/
+            - /apiStore/2.25.1/uat/tXid/
+            - /apiStore/2.25.1/tXid/
+    1.2. tXdateTime
+        a. postAsync
+            - /apiStore/2.25.1/dev/tXdateTime/
+            - /apiStore/2.25.1/qa/tXdateTime/
+            - /apiStore/2.25.1/uat/tXdateTime/
+            - /apiStore/2.25.1/tXdateTime/
+    1.3. tXpacket
+        a. postAsync
+            - /apiStore/2.25.1/dev/tXpacket/
+            - /apiStore/2.25.1/qa/tXpacket/
+            - /apiStore/2.25.1/uat/tXpacket/
+            - /apiStore/2.25.1/tXpacket/
+        b. sample model
+
+        namespace tX.utils.dotnet;
+
+        public class tXPacketInput
+        {
+            public string id { get; set; }
+            public string code { get; set; }
+            public string name { get; set; }
+            public string description { get; set; }
+            public string dateTime { get; set; }
+            public List<KeyValuePair<string,object>> data;
+        }
+
+        public class tXPacketOutput
+        {
+            public string id { get; set; }
+            public string inputId { get; set; }
+            public string code { get; set; }
+            public string name { get; set; }
+            public string description { get; set; }
+            public string dateTime { get; set; }
+            public List<KeyValuePair<string,object>> data;
+        }
+
+        public class tXPacket
+        {
+            public string id { get; set; }
+            public string dateTime { get; set; }
+            public tXPacketInput input { get; set; }
+            public tXPacketOutput output { get; set; }
+            public string tripTime { get; set; }  // tbd
+
+            public Task<tXPacket> postAsync() {
+                return Task.FromResult(this);
+            }
+        }
+
+2. tXutil.API.mstest
+    2.1. tXid
+        a. postAsync
+    2.2. tXdateTime
+        a. postAsync
+    2.3. tXpacket
+        a. postAsync

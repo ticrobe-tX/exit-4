@@ -1,0 +1,6 @@
+@tXauthenticate.API_HostAddress = http://localhost:5067
+
+GET {{tXauthenticate.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
