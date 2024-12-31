@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil/25.1/dev/src/tXutil.API/tXutil.API.csproj": {}
+    "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil.API/25.1/dev/src/tXutil.API/tXutil.API.csproj": {}
   },
   "projects": {
-    "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil/25.1/dev/src/tXutil.API/tXutil.API.csproj": {
+    "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil.API/25.1/dev/src/tXutil.API/tXutil.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil/25.1/dev/src/tXutil.API/tXutil.API.csproj",
+        "projectUniqueName": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil.API/25.1/dev/src/tXutil.API/tXutil.API.csproj",
         "projectName": "tXutil.API",
-        "projectPath": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil/25.1/dev/src/tXutil.API/tXutil.API.csproj",
+        "projectPath": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil.API/25.1/dev/src/tXutil.API/tXutil.API.csproj",
         "packagesPath": "/Users/techist/.nuget/packages/",
-        "outputPath": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil/25.1/dev/src/tXutil.API/obj/",
+        "outputPath": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.1-tXutil.API/25.1/dev/src/tXutil.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/techist/.nuget/NuGet/NuGet.Config"
