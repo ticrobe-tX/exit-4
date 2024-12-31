@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/tXid.api.props" />
+</Project>

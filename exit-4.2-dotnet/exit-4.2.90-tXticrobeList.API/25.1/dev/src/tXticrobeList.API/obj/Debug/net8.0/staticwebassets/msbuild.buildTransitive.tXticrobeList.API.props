@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/tXticrobeList.API.props" />
+</Project>
