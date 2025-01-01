@@ -1,0 +1,37 @@
+{
+    "tXid": "123"
+    , "addressList": [
+        {
+            "id": 1
+            , "isCurrent": true
+            , "type": "residential"
+            , "fromDate": "2024-12-01"
+            , "toDate": "2025-01-01"
+            , "address": {
+                "apartmentOrBuildingNumber": "Flat#123"
+                , "street1": "Tellapur"
+                , "street2": "Tellapur"
+                , "city": "Hyderabad"
+                , "state": "Telangana"
+                , "pincode": 500001
+                , "country": "India"
+            }
+        }
+        , {
+            "id": 2
+            , "isCurrent": true
+            , "type": "residential"
+            , "fromDate": "2024-12-01"
+            , "toDate": "2025-01-01"
+            , "address": {
+                "apartmentOrBuildingNumber": "Flat#123"
+                , "street1": "Tellapur"
+                , "street2": "Tellapur"
+                , "city": "Hyderabad"
+                , "state": "Telangana"
+                , "pincode": 500001
+                , "country": "India"
+            }
+        }
+    ]
+}
