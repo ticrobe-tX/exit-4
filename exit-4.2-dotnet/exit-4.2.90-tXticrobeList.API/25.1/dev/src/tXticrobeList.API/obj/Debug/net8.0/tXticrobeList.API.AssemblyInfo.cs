@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tXticrobeList.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8df5a475d704daddb519896a3df96ee468e268d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e6201a804a1d1e7af4537455d380f857f961ac9")]
 [assembly: System.Reflection.AssemblyProductAttribute("tXticrobeList.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tXticrobeList.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

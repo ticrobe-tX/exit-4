@@ -11,13 +11,9 @@ public class tXticrobeNameListService : tXticrobeNameListServiceInterface
     {
         this._tXticrobeNameListRepository = tXticrobeNameListRepository;
     }
-    public async Task<tXticrobeNameListModel> getListAsync(string listId, int from, int count)
+    public async Task<tXticrobeNameListModel> getAsync(string? tNameListId)
     {
-        return await this._tXticrobeNameListRepository.getListAsync(listId, from, count);
-    }
-    public async Task<tXticrobeNameListModel> getAsync()
-    {
-        return await this._tXticrobeNameListRepository.getAsync();
+        return await this._tXticrobeNameListRepository.getAsync(tNameListId);
     }
     public async Task<tXticrobeNameListModel> postAsync(tXticrobeNameListPostRequest _tXticrobeNameListPostRequest)
     {

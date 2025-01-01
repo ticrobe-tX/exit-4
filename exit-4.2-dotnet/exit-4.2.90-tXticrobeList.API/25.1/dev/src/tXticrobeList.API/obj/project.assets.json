@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.20-tXticrobeList.API/25.1/dev/src/tXticrobeList.API/tXticrobeList.API.csproj",
+      "projectUniqueName": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.90-tXticrobeList.API/25.1/dev/src/tXticrobeList.API/tXticrobeList.API.csproj",
       "projectName": "tXticrobeList.API",
-      "projectPath": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.20-tXticrobeList.API/25.1/dev/src/tXticrobeList.API/tXticrobeList.API.csproj",
+      "projectPath": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.90-tXticrobeList.API/25.1/dev/src/tXticrobeList.API/tXticrobeList.API.csproj",
       "packagesPath": "/Users/techist/.nuget/packages/",
-      "outputPath": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.20-tXticrobeList.API/25.1/dev/src/tXticrobeList.API/obj/",
+      "outputPath": "/Users/techist/Desktop/ticrobe/exit-4/exit-4.2-dotnet/exit-4.2.90-tXticrobeList.API/25.1/dev/src/tXticrobeList.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/techist/.nuget/NuGet/NuGet.Config"

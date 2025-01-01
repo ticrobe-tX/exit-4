@@ -21,15 +21,10 @@ public class tXticrobeNameListController : ControllerBase
     }
 
     #region the crud
-    [HttpGet("list/{listId}/from/{from}/count/{count}")]
-    public async Task<tXticrobeNameListModel> GetListAsync(string listId, int from, int count)
-    {
-        return await _tXticrobeNameListService.getListAsync(listId, from, count);
-    }
     [HttpGet]
-    public async Task<tXticrobeNameListModel> GetAsync()
+    public async Task<tXticrobeNameListModel> GetAsync(string tNameListId)
     {
-        return await _tXticrobeNameListService.getAsync();
+        return await _tXticrobeNameListService.getAsync(tNameListId);
     }    
     #endregion the crud
 }

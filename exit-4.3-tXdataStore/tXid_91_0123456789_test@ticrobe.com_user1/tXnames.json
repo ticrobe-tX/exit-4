@@ -1,0 +1,29 @@
+{
+    "tXid": "123"
+    , "nameList": [
+        {
+            "id": 1
+            , "isCurrent": true
+            , "type": "passport"
+            , "fromDate": "2024-12-01"
+            , "toDate": "2025-01-01"
+            , "name": {
+                "firstName": "test1"
+                , "middleName": "test2"
+                , "lastName": "test3"
+            }
+        }
+        , {
+            "id": 2
+            , "isCurrent": true
+            , "type": "nick name"
+            , "fromDate": "2024-12-01"
+            , "toDate": "2025-01-01"
+            , "name": {
+                "firstName": "test1"
+                , "middleName": "test2"
+                , "lastName": "test3"
+            }
+        }
+    ]
+}
