@@ -1,6 +1,6 @@
-﻿namespace tXhttpStore.lib;
+﻿namespace tXhttpStore;
 
-public class Class1
+public class post
 {
-
+    
 }
